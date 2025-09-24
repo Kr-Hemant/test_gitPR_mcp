@@ -18,8 +18,8 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 # Initialize Bedrock clients
-bedrock_runtime_us = boto3.client(service_name='bedrock-runtime', region_name='us-east-1')
-bedrock_runtime_in = boto3.client(service_name='bedrock-runtime', region_name='ap-south-1')
+# bedrock_runtime_us = boto3.client(service_name='bedrock-runtime', region_name='us-east-1')
+# bedrock_runtime_in = boto3.client(service_name='bedrock-runtime', region_name='ap-south-1')
 
 # Initialize LLM model
 def get_llm():
